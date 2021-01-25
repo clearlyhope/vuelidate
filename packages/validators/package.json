@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "index.d.ts",
   "module": "dist/index.esm.js",
-  "repository": "https://github.com/vuelidate/vuelidate",
+  "repository": "https://github.com/clearlyhope/vuelidate",
   "license": "MIT",
   "scripts": {
     "build": "bili src src/raw --format esm --format cjs",
