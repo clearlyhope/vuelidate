@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.11](https://github.com/clearlyhope/vuelidate/compare/@clearlyhope/vuelidate-core@2.0.0-alpha.10...@clearlyhope/vuelidate-core@2.0.0-alpha.11) (2021-01-25)
+
+**Note:** Version bump only for package @clearlyhope/vuelidate-core
+
+
+
+
+
 # 2.0.0-alpha.10 (2021-01-25)
 
 
