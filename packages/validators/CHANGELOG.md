@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-alpha.7 (2021-01-25)
+
+
+### Bug Fixes
+
+* improve the validator message consistency ([#779](https://github.com/clearlyhope/vuelidate/issues/779)) ([9d47c3c](https://github.com/clearlyhope/vuelidate/commit/9d47c3c1507952a519d007b3dfdffb9c080a6640))
+* remove side effects from withMessage helper ([#763](https://github.com/clearlyhope/vuelidate/issues/763)) ([e77a610](https://github.com/clearlyhope/vuelidate/commit/e77a61039afcac3dcce66d84d4229ead5b050a58))
+* **validators:** add unwrap calls to the core helpers like "req", "len", "regex", along with some validators ([b6ec948](https://github.com/clearlyhope/vuelidate/commit/b6ec948e629e169f78d2679cb50162aeb3631f2d))
+* **validators:** fix `not`,`or`, `and` validators ([#724](https://github.com/clearlyhope/vuelidate/issues/724)) ([995c6f9](https://github.com/clearlyhope/vuelidate/commit/995c6f909e43e4e03622d96986123498e6fa6378))
+* **validators:** Unify minLength validator format ([#726](https://github.com/clearlyhope/vuelidate/issues/726)) ([e5d755a](https://github.com/clearlyhope/vuelidate/commit/e5d755a429ee9bbb20c24d893e98fa7a082aaf0a))
+* **validators:** update "numeric" validator ([#711](https://github.com/clearlyhope/vuelidate/issues/711)) ([a80b157](https://github.com/clearlyhope/vuelidate/commit/a80b1574f3e456970b92da61efe0e1e4a7a1e101))
+* **validators:** update email regex validator ([#718](https://github.com/clearlyhope/vuelidate/issues/718)) ([d68a480](https://github.com/clearlyhope/vuelidate/commit/d68a48062c2cf21512d8c7e72ceb843a083ac4c5))
+
+
+### Features
+
+* typings ([#722](https://github.com/clearlyhope/vuelidate/issues/722)) ([b99b8ab](https://github.com/clearlyhope/vuelidate/commit/b99b8ab14fe6fdd81c3796594053147feb647961))
+* **compat:** use vue-demi in validators package ([baf8816](https://github.com/clearlyhope/vuelidate/commit/baf881617ae2579a5b17f42963987f11e180c482))
+* add $dirty cache WIP ([5725a38](https://github.com/clearlyhope/vuelidate/commit/5725a38da12848fc699c719dafa06706107f0374))
+* add validate function and other improvements ([#663](https://github.com/clearlyhope/vuelidate/issues/663)) ([0d1ca73](https://github.com/clearlyhope/vuelidate/commit/0d1ca73ca5f7574e15256cf8bfa94ea6170dc2dc))
+* **validators:** add promise as property resolver ([aab11d1](https://github.com/clearlyhope/vuelidate/commit/aab11d16a804550f7c3bc3acebd2af0f850486ca))
+* **validators:** expose an isTruthy helper ([dc2235e](https://github.com/clearlyhope/vuelidate/commit/dc2235e612e8663b56488eb79eeb7fe99c72b6bc))
+* add jest as a global and package level test runner ([eb4c875](https://github.com/clearlyhope/vuelidate/commit/eb4c875a442d626fec1b68d03e043c4ec94cfea9))
+* move validator tests ([658a615](https://github.com/clearlyhope/vuelidate/commit/658a6152f958cf6fc9c1028457682622d367e006))
+* **validators:** improve utils organisation ([4d710df](https://github.com/clearlyhope/vuelidate/commit/4d710dfa1aeaab955dc81fa57e754c0932991121))
+* **validators:** Update validators to v 1.x. ([2e5b8c9](https://github.com/clearlyhope/vuelidate/commit/2e5b8c9e777c94ab40d7762f6ddc6a82e6e02651))
+* Rewrite Vuelidate with Vue 3.0 new reactivity API ([0794780](https://github.com/clearlyhope/vuelidate/commit/0794780c5937cdc11ab8aa5447c85fa0a77d0932))
+
+
+
+
+
 # [2.0.0-alpha.6](https://github.com/vuelidate/vuelidate/compare/@vuelidate/validators@2.0.0-alpha.5...@vuelidate/validators@2.0.0-alpha.6) (2021-01-25)
 
 
