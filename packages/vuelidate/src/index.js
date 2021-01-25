@@ -98,6 +98,7 @@ export const VuelidateMixin = {
     // this line of code breaks a bunch of things due to object reference passing 
     // since computed (above^) is *shared* betweeb components if empty
     //if (options.computed.$v) return
+    
 
     const validations = computed(() => isFunction(options.validations)
       ? options.validations.call(this)
